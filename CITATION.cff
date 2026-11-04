@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use SwiftCov, please cite it as below, and also cite bedtools, whose behaviour it reproduces."
+title: "SwiftCov: a byte-identical drop-in replacement for bedtools coverage"
+type: software
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/joe-b-christensen/swiftcov"
+authors:
+  - family-names: Christensen
+    given-names: Joe
+    orcid: "https://orcid.org/0009-0007-0908-1299"
+    email: joechristensen@clin.au.dk
+    affiliation: "Translational Neuropsychiatry Unit (TNU), Department of Clinical Medicine, Aarhus University, Denmark"
+keywords:
+  - bedtools
+  - genome coverage
+  - BED
+  - performance
+abstract: >-
+  SwiftCov is bedtools v2.31.1 with a validated fast path for bedtools coverage on plain BED input; every other input
+  runs the unmodified bedtools code. Its output is byte-identical to bedtools v2.31.1 on every input tested. On real
+  HG002 reads with the query restricted to the chromosome that has reads, it was 13- to 34-fold faster than bedtools
+  -sorted at one thread. With genome-wide queries, where most rows lie on chromosomes with no reads, it was 50-fold
+  faster at two threads on 12.5 million chr21 alignments.
+references:
+  - type: article
+    title: "BEDTools: a flexible suite of utilities for comparing genomic features"
+    authors:
+      - family-names: Quinlan
+        given-names: Aaron R.
+      - family-names: Hall
+        given-names: Ira M.
+    journal: Bioinformatics
+    year: 2010
+    volume: 26
+    issue: 6
+    start: 841
+    end: 842
+    doi: "10.1093/bioinformatics/btq033"

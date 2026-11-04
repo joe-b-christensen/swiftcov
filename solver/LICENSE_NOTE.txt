@@ -1,0 +1,8 @@
+solver/bedtools/ is bedtools v2.31.1 (commit 705ccfd, github.com/arq5x/bedtools2), MIT licence, plus SwiftCov.
+Two bedtools files are modified: src/bedtools.cpp (the call into the fast path) and Makefile (one line adding
+src/swiftcov). Two files are new: src/swiftcov/swiftcov_fast.cpp and src/swiftcov/Makefile.frag (MIT). The other
+files are unchanged, including 105 source headers that still say GPL 2.0 although bedtools moved its LICENSE to MIT
+in 2019; see ../LICENSE. Directories not needed to build (docs, test, data, tutorial, genomes, scripts, CI) are left out.
+
+Vendored with bedtools: htslib (MIT/Expat; modified BSD for its cram/ directory) and gzstream (LGPL-2.1).
+Downloaded and linked statically at build time: zlib v1.3.1 (zlib licence).

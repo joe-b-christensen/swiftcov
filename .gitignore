@@ -1,0 +1,16 @@
+bench/
+ext/
+failures/
+__pycache__/
+last_eval*.json
+solver/swiftcov
+solver/swiftcov.tmp
+solver/.build.log
+solver/bedtools/bin/
+solver/bedtools/obj/
+solver/bedtools/src/utils/version/version_git.h
+solver/bedtools/src/utils/htslib/config.h
+solver/bedtools/src/utils/htslib/version.h
+solver/bedtools/src/utils/htslib/libhts.a
+solver/bedtools/src/utils/htslib/*.o
+solver/bedtools/src/utils/htslib/cram/*.o

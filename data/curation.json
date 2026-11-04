@@ -1,0 +1,266 @@
+{
+  "revision": "whole-chromosome HG002 real data, 2026-10-11",
+  "assembly": "GRCh38/hg38 primary chromosomes",
+  "source_label": "HG002 HiSeqX PCR-free 30x; observed retained-span depths recorded separately",
+  "split": {
+    "dev_reads": "chr21",
+    "holdout_reads": "chr22"
+  },
+  "datasets": {
+    "dev_reads": {
+      "chromosome": "chr21",
+      "records": 12459679,
+      "source_records_seen": 12479666,
+      "excluded_unmapped_or_empty": 19987,
+      "first_start": 5010054,
+      "max_end": 46699984,
+      "total_reference_span": 1810319754,
+      "span_depth_over_chromosome": 38.75659201160489,
+      "bed_sha256": "c2e66772857bfe099bd730404ff525bbf85ad6ebab485ab3971bc30f0d9a2ee7",
+      "bed_bytes": 603365318,
+      "source_names_sha256": "4f747b30729eb8ecb695afdebca98749543b0c43030c13880bb23e0c769e3887",
+      "interval_fields_sha256": "3e8defae1dba77d478e884cca65de9e765931bf4e1174c64e9f9c3b48e2f0763",
+      "compact": {
+        "chr21.delta32.xz": {
+          "sha256": "90fbac0688856ae13eebdcc71c934f66ad3e256b3645d8cafcb15be071ab03a8",
+          "bytes": 5021064
+        },
+        "chr21.span32.xz": {
+          "sha256": "904a426db09f2338618b5df1e178b334aa7714851a34815f49c965baedec404e",
+          "bytes": 1801688
+        },
+        "chr21.meta16.xz": {
+          "sha256": "804e1aa332d4fa1f410f38bbc3286953b0cfb25455760107133e71d5bedfb5d0",
+          "bytes": 2570324
+        }
+      },
+      "format": "delta32-span32-meta16.xz",
+      "delta": "chr21.delta32.xz",
+      "span": "chr21.span32.xz",
+      "meta": "chr21.meta16.xz"
+    },
+    "holdout_reads": {
+      "chromosome": "chr22",
+      "records": 10528760,
+      "source_records_seen": 10545681,
+      "excluded_unmapped_or_empty": 16921,
+      "first_start": 10510009,
+      "max_end": 50808470,
+      "total_reference_span": 1546497778,
+      "span_depth_over_chromosome": 30.431806366142325,
+      "bed_sha256": "dbb4501aa836dae5e540b9588947b0d02e5f8bd21b392ed7da48f1e5db3f1444",
+      "bed_bytes": 514523454,
+      "source_names_sha256": "4307cab1dd3f9986ef893c8e7c7f3db45fa96f4b7cc577022249a5782f26a901",
+      "interval_fields_sha256": "62225373ac21b5c6a96437784896561fc7a589737fd5d7239dd86ae8a84f13da",
+      "compact": {
+        "chr22.delta32.xz": {
+          "sha256": "92031361fc3d8b00e6971ac79564eb175b23e8ebd23794bb1b124b1783dd71cc",
+          "bytes": 4924192
+        },
+        "chr22.span32.xz": {
+          "sha256": "97b6bba2b6a37a431f5b839b40b743b0b7b304f08cb0b14c4ad9c18478607e37",
+          "bytes": 1462172
+        },
+        "chr22.meta16.xz": {
+          "sha256": "473288cdeea7a94396122069f384eaedc0fbacb2ba93a051a0893212323577e3",
+          "bytes": 2251820
+        }
+      },
+      "format": "delta32-span32-meta16.xz",
+      "delta": "chr22.delta32.xz",
+      "span": "chr22.span32.xz",
+      "meta": "chr22.meta16.xz"
+    },
+    "refseq_transcripts": {
+      "records": 78363,
+      "sum_bp": 5473706873,
+      "bed_sha256": "093aa66c713a9d1e28e03d4f07f080b0ac8a8d18634de2f4eb8024f32e5e6bd4",
+      "bed_bytes": 3085820,
+      "compressed_bytes": 483396,
+      "format": "bed.xz",
+      "file": "refseq_transcripts.bed.xz",
+      "records_by_chromosome": {
+        "chr1": 7711,
+        "chr10": 3597,
+        "chr11": 4715,
+        "chr12": 3889,
+        "chr13": 1499,
+        "chr14": 2440,
+        "chr15": 2648,
+        "chr16": 3185,
+        "chr17": 4000,
+        "chr18": 1268,
+        "chr19": 4664,
+        "chr2": 5525,
+        "chr20": 1954,
+        "chr21": 1091,
+        "chr22": 1660,
+        "chr3": 4815,
+        "chr4": 2989,
+        "chr5": 3471,
+        "chr6": 3907,
+        "chr7": 3919,
+        "chr8": 2921,
+        "chr9": 3053,
+        "chrM": 1,
+        "chrX": 2958,
+        "chrY": 483
+      }
+    },
+    "refseq_exons": {
+      "records": 811314,
+      "sum_bp": 265644815,
+      "bed_sha256": "731d70c3292eb217cfa35ed86f539069ae99d10dfd672d4c5ddfa231a108b6f4",
+      "bed_bytes": 37324910,
+      "compressed_bytes": 2878088,
+      "format": "bed.xz",
+      "file": "refseq_exons.bed.xz",
+      "records_by_chromosome": {
+        "chr1": 75784,
+        "chr10": 40982,
+        "chr11": 49202,
+        "chr12": 42978,
+        "chr13": 15201,
+        "chr14": 22882,
+        "chr15": 28159,
+        "chr16": 31524,
+        "chr17": 40948,
+        "chr18": 14096,
+        "chr19": 39169,
+        "chr2": 66627,
+        "chr20": 17592,
+        "chr21": 9713,
+        "chr22": 17215,
+        "chr3": 55140,
+        "chr4": 32714,
+        "chr5": 34587,
+        "chr6": 39787,
+        "chr7": 41402,
+        "chr8": 31026,
+        "chr9": 33811,
+        "chrM": 1,
+        "chrX": 25516,
+        "chrY": 5258
+      }
+    },
+    "exome_targets": {
+      "records": 192264,
+      "sum_bp": 33167129,
+      "bed_sha256": "2879eb91208da50e5b33b56cbb1b8f10d7a6f10076a4b3a742bd836890089027",
+      "bed_bytes": 4591727,
+      "compressed_bytes": 761428,
+      "format": "bed.xz",
+      "file": "exome_targets.bed.xz",
+      "records_by_chromosome": {
+        "chr1": 19712,
+        "chr10": 7929,
+        "chr11": 10781,
+        "chr12": 10853,
+        "chr13": 3345,
+        "chr14": 5799,
+        "chr15": 6868,
+        "chr16": 8171,
+        "chr17": 11505,
+        "chr18": 2990,
+        "chr19": 11122,
+        "chr2": 14730,
+        "chr20": 4728,
+        "chr21": 1994,
+        "chr22": 4010,
+        "chr3": 11385,
+        "chr4": 7562,
+        "chr5": 8583,
+        "chr6": 9628,
+        "chr7": 8946,
+        "chr8": 6521,
+        "chr9": 7794,
+        "chrX": 6769,
+        "chrY": 539
+      }
+    }
+  },
+  "source": {
+    "bam_url": "https://storage.googleapis.com/brain-genomics-public/research/sequencing/grch38/bam/hiseqx/wgs_pcr_free/30x/HG002.hiseqx.pcr-free.30x.dedup.grch38.bam",
+    "source_headers": {
+      "Content-Type": "application/octet-stream",
+      "X-GUploader-UploadID": "AP6rU80ezxuLZSv4tHZ3D2bqmy1VDlxbsn6oEN0ZNLIyFeHl6tiYQXQEav51Sie_mzjak6s4",
+      "Expires": "Sun, 11 Oct 2026 12:54:23 GMT",
+      "Date": "Sun, 11 Oct 2026 11:54:23 GMT",
+      "Cache-Control": "public, max-age=3600",
+      "Last-Modified": "Fri, 11 Dec 2020 05:42:35 GMT",
+      "ETag": "\"4591a8712e5da9c13538a636cf32acab\"",
+      "x-goog-generation": "1607665355166436",
+      "x-goog-metageneration": "1",
+      "x-goog-stored-content-encoding": "identity",
+      "x-goog-stored-content-length": "62927996476",
+      "x-goog-hash": "crc32c=57RJGw==",
+      "x-goog-storage-class": "MULTI_REGIONAL",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "62927996476",
+      "Vary": "Origin",
+      "Server": "UploadServer",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "ranges": {
+      "chr21": {
+        "refid": 20,
+        "first_virtual": 3665854905269539,
+        "last_virtual": 3733446257067585,
+        "range_start": 55936506733,
+        "range_end": 56967934447,
+        "length": 46709983,
+        "download_sha256": "180986c9f380d9241f1ce0bcb3f95f9406c754b59b251ad646dbc0c39db98f43",
+        "download_bytes": 1031427715
+      },
+      "chr22": {
+        "refid": 21,
+        "first_virtual": 3733446257067585,
+        "last_virtual": 3790503457203351,
+        "range_start": 56967868912,
+        "range_end": 57838558229,
+        "length": 50818468,
+        "download_sha256": "a476c7ef999e3b1a605f69dd4ad7e6739d07c1c2aaaaa30e695c51c03f19f6b7",
+        "download_bytes": 870689318
+      }
+    },
+    "annotations": {
+      "hg38_refGene.txt.gz": {
+        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/refGene.txt.gz",
+        "sha256": "58fbc18d60bcda5fd4635e71b99dffde09d6eb67995c7f9ded3af194eb789756",
+        "bytes": 8668756
+      },
+      "TwistCore.bb": {
+        "url": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/exomeProbesets/Twist_Exome_Target_hg38.bb",
+        "sha256": "39b0076a9db9886c73377e25d659b9d2fffa337076e300422e30a2cbd3424ed0",
+        "bytes": 1914659,
+        "conversion": "UCSC bigBedToBed, all original BED3 coordinates retained, sorted lexicographically by chromosome then integer start/end",
+        "bed_sha256": "2879eb91208da50e5b33b56cbb1b8f10d7a6f10076a4b3a742bd836890089027",
+        "converter_sha256": "aa0f66449838339c0e6102994cc65cbad27b628c39ffa19316b4baa4663a9eab"
+      }
+    }
+  },
+  "bai_sha256": "6735d60bc127279df34a3de0d30478e07318a2722e465efad0eb80a267de3d70",
+  "bai_completeness": {
+    "chr21": {
+      "first_virtual": 3665854905269539,
+      "last_virtual": 3733446257067585,
+      "mapped": 12459679,
+      "unmapped": 19987,
+      "curated_mapped": 12459679,
+      "curated_seen": 12479666,
+      "excluded_unmapped": 19987,
+      "PASS": true
+    },
+    "chr22": {
+      "first_virtual": 3733446257067585,
+      "last_virtual": 3790503457203351,
+      "mapped": 10528760,
+      "unmapped": 16921,
+      "curated_mapped": 10528760,
+      "curated_seen": 10545681,
+      "excluded_unmapped": 16921,
+      "PASS": true
+    }
+  }
+}
